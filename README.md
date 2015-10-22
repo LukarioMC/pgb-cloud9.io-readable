@@ -1,54 +1,22 @@
-pgb-cloud9
+pgb-cloud9.io-readable
 =====================
 
-
-See the youtube video at 
-
-https://www.youtube.com/watch?v=5K75wV8FybQ
-
-or google youtube videos " What to do Aafter the hour of code"
-
-
-
 Sign up for cloud9
-creat new box -- from url
+Create a new box and use the option "from URL" and use this URL:
+https://github.com/LukarioMC/pgb-cloud9.io-readable.git
 
-https://github.com/hpssjellis/pgb-cloud9.git
+Once your box is created and starts go in a terminal type "npm install"
 
-in terminal type 
+Find the cloud9.js file and right click then choose run
+Note: only run the cloud9.js file, if you run another type of file it will more than likely load an apache2 webserver and will stop the correct application from running.
 
-npm install
-
-Find the cloud9.js file right click and choose run
-Note: only run the cloud9.js file, if you run an html file it will load appache2 webserver and will stop the correct application. To fix this issue in a terminal type
-
-killall -9 apache2
-
+To fix the apache2 webserver go in to a terminal and type "killall -9 apache2"
 Then run the cloud9.js file.
 
-preview -->premium with web server
+To see your website press "preview" on the top toolbar and click "preview running application"
 
-enter that url in the phonegap developer app on your mobile device
+Enter the URL from c9 to a new tab or your phonegap developer app.
 
 
 ####Use this github site at your own risk!
 Note: This site will be changing as new information is found.
-
-
-
-************************************************************************************************************
-
-###Disclaimer: I spend my time getting complex things working in simple ways. I have no idea if I am doing anything correctly so please beware if you use my work. If you like this App and can hum, play or sing please help the musically illiterate, use a flash capable computer to add your favorite song at http://www.rocksetta.com                              twitter @rocksetta 
-
-
-
-
-
-
-
-
-
-
-
-
-
