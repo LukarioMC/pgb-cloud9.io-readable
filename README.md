@@ -20,3 +20,5 @@ Enter the URL from c9 to a new tab or your phonegap developer app.
 
 ####Use this github site at your own risk!
 Note: This site will be changing as new information is found.
+
+####Index.html is directing to folders and files that are supposed to be renamed but haven't been fixed as of yet.
