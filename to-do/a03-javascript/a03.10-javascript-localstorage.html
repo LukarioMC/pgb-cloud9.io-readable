@@ -1,0 +1,39 @@
+<body onload="{
+   myStorage = localStorage.getItem('myStoredText')
+   alert(myStorage )
+   if(myStorage  != null){
+      document.getElementById('myText1').value = myStorage
+    }
+}" onunload="{
+   localstorage.setItem('myStoredText',document.getElementById('myText1').value)
+}">
+<!--
+Instructions:
+Pass: Make several buttons to prove that you can sote and retrieve each of these types of variables:
+Word example fred
+Integer example: 6
+deciaml example: 6.34
+boolean example: true
+
+Excellent: Also make buttons to store and retrieve a 1 D array of cool cars<br>
+Note: remember this kind of javascript code
+   myCars = new Array()
+   myCars[1] = 'BMW'
+   myCars[2] = "Smartcar'
+Teacher Note: Arrays start at zero. I normally have students start at 1 and use a loop that goes from 1 to <= max number in the array.
+Also local storage stores strings, but having students store numbers and booleans interoduces them to these different types of data.
+-->
+
+<input id="myText1" type=text size=70 value="Write stuff here to be stored for the next time you come back to this site"><br>
+
+<input type="button" value="Store Text" onClick="{
+   localStorage.setItem('myStoredText', document.getElementById('myText1').value)
+   alert(document.getElementById('myText1').value + ' \nHas been stored')
+   document.getElementById('myText1').value = ''
+}">
+
+<input type="button" value="Retrieve Text" onClick="{
+   document.getElementById('myText1').value = localStorage.getItem('myStoredText')
+}">
+
+<input type=button value="Back" style="font-size:15px" onclick="{window.history.back()}"><br><br>
